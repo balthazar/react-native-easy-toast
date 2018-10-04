@@ -1,6 +1,6 @@
 {
   "name": "rn-toast-zavatta",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A react native module to show toast like android, it works on iOS and Android.",
   "main": "index.js",
   "dependencies": {

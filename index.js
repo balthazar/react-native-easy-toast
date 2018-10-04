@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
     zIndex: 10000,
   },
   content: {
-    backgroundColor: 'black',
+    backgroundColor: 'rgba(0, 0, 0, 0.7)',
     borderRadius: 5,
     padding: 10,
   },
@@ -136,7 +136,7 @@ Toast.propTypes = {
 Toast.defaultProps = {
   position: 'bottom',
   textStyle: styles.text,
-  positionValue: 120,
+  positionValue: 50,
   fadeInDuration: 500,
   fadeOutDuration: 500,
   opacity: 1,
