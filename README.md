@@ -1,40 +1,13 @@
 # react-native-easy-toast
 A react native module to show toast like android, it works on iOS and Android.
 
-[ ![release](https://img.shields.io/github/release/crazycodeboy/react-native-easy-toast.svg?maxAge=2592000?style=flat-square)](https://github.com/crazycodeboy/react-native-easy-toast/releases)
-[ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/crazycodeboy/react-native-easy-toast/pulls)
-[ ![NPM version](http://img.shields.io/npm/v/react-native-easy-toast.svg?style=flat)](https://www.npmjs.com/package/react-native-easy-toast)
-[![License MIT](http://img.shields.io/badge/license-MIT-orange.svg?style=flat)](https://raw.githubusercontent.com/crazycodeboy/react-native-easy-toast/master/LICENSE)
-[ ![语言 中文](https://img.shields.io/badge/语言-中文-yellow.svg)](https://github.com/crazycodeboy/react-native-easy-toast/blob/master/README.zh.md)
+## Getting started
 
+Add `rn-toast-zavatta` to your js file.
 
+`import Toast from 'rn-toast-zavatta'`
 
-
-## Content
-
-- [Installation](#installation)
-- [Demo](#demo)
-- [Getting started](#getting-started)
-- [API](#api)
-- [Contribution](#contribution)
-
-## Installation
-
-* 1.Run `npm i react-native-easy-toast --save`
-* 2.`import Toast, {DURATION} from 'react-native-easy-toast'`    
-
-## Demo  
-* [Examples](https://github.com/crazycodeboy/react-native-easy-toast/tree/master/examples)
-
-![Screenshots](https://raw.githubusercontent.com/crazycodeboy/react-native-easy-toast/master/examples/Screenshots/react-native-easy-toast-screenshots.gif)
-
-## Getting started  
-
-Add `react-native-easy-toast` to your js file.   
-
-`import Toast, {DURATION} from 'react-native-easy-toast'`  
-
-Inside your component's render method, use Toast:   
+Inside your component's render method, use Toast:
 
 ```javascript
  render() {
@@ -47,15 +20,15 @@ Inside your component's render method, use Toast:
  }
 ```
 
->Note:  Add it in the bottom of the root view.
+>Note: Add it in the bottom of the root view.
 
-Then you can use it like this:   
+Then you can use it like this:
 
 ```javascript
  this.refs.toast.show('hello world!');
 ```
 
-That's it, you're ready to go!  
+That's it, you're ready to go!
 
 show a toast, and execute callback function when toast close it:
 
@@ -90,9 +63,7 @@ Currently, the default delay for close() in FOREVER-mode is set to 250 ms (or th
  <Toast ... defaultCloseDelay={100} />
 ```
 
-
-
-### Basic usage  
+### Basic usage
 
 ```javascript
 render() {
@@ -111,7 +82,7 @@ render() {
     }
 ```
 
-### Custom Toast   
+### Custom Toast
 
 ```javascript
 render() {
@@ -139,7 +110,7 @@ render() {
     }
 ```
 
-**More Usage:**    
+**More Usage:**
 
 [GitHubPopular](https://github.com/crazycodeboy/GitHubPopular/blob/develop/js/page/SearchPage.js)
 
